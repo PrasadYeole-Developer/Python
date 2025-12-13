@@ -42,3 +42,11 @@ print("Loop Separation!");
 for char in strLength:
     print(char);
 
+# if-elif ladder
+n = int(input("Enter input: "));
+if n<0:
+    print("Negative.");
+elif n>0:
+    print("Positive.");
+else:
+    print("Zero.");
