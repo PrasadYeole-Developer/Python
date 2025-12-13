@@ -50,3 +50,36 @@ elif n>0:
     print("Positive.");
 else:
     print("Zero.");
+
+# functions
+def greet(name):
+    print(f"Hello, {name}")
+greet("Jack")
+
+# types of arguments
+# 1 
+def add(a,b):
+    return a+b
+
+print(add(3,5));
+
+# 2
+def introduce(name, age):
+    print(f"Hello I'm {name} and I'm {age} years old.")
+
+introduce(age=21, name="Prasad");
+
+# 3 
+def greet(name="Guest"):
+    print(f"Hello, {name}")
+
+greet() # if not provided will print Guest
+greet("Bob") # this will print Hello, Bob
+
+# Data Structures
+## List
+fruits = ["apple", "banana", "cherry"]
+numbers = [10,20,30,40]
+print(numbers)
+numbers[1] = 99
+print(numbers)
