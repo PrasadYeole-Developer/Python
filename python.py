@@ -77,9 +77,20 @@ greet() # if not provided will print Guest
 greet("Bob") # this will print Hello, Bob
 
 # Data Structures
-## List
+## List : ordered, mutable, duplicates, heterogeneous
 fruits = ["apple", "banana", "cherry"]
 numbers = [10,20,30,40]
 print(numbers)
 numbers[1] = 99
 print(numbers)
+
+## Tuple : ordered, immutable, duplicates, heterogeneous, has only 2 methods count and index
+nums = (1,2,3,4,53,22,4)
+print(nums.index(4))
+print(nums.count(4))
+
+## Set : unordered, mutable, heterogeneous, duplicates, can not be traversed, has powerful methods
+s = {1,2,3}
+print(s)
+
+## Dictionary : 
