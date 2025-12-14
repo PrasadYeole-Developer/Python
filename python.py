@@ -90,7 +90,46 @@ print(nums.index(4))
 print(nums.count(4))
 
 ## Set : unordered, mutable, heterogeneous, duplicates, can not be traversed, has powerful methods
+s = {1,2,3,4,5,6,7,8}
+print(s)
+s.add(9)
+s.remove(3) # will give error if element not found
+print(s)
+s.discard(10) # won't give error if element not found
+s.pop() # removes random element
+s.clear()
+print(s)
 s = {1,2,3}
 print(s)
 
-## Dictionary : 
+# Operations on 2 sets
+## Union (A|B) , intersection(A&B), difference(A-B), symmetricDifference(A^B)
+
+A = {1,2,3}
+B = {3,4,5}
+unionSet = A.union(B)
+intersectionSet = A.intersection(B)
+differenceSet = A.difference(B)
+symmetricDifferenceSet = A.symmetric_difference(B)
+
+print("Union", unionSet)
+print("Intersection", intersectionSet)
+print("Difference", differenceSet)
+print("Symmetric difference", symmetricDifferenceSet)
+
+## Dictionary : mutable, insertion order, duplicate values, unique keys, heterogeneous
+student = {"name":"Jacob", "age":28}
+print(student)
+print(student["name"])
+for i in student:
+    print(f"{i} : {student[i]}")
+
+"""
+| Method     | Use                |
+| ---------- | ------------------ |
+| `keys()`   | get all keys       |
+| `values()` | get all values     |
+| `items()`  | key-value pairs    |
+| `update()` | merge dictionaries |
+| `clear()`  | remove all items   |
+"""
