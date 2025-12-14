@@ -133,3 +133,36 @@ for i in student:
 | `update()` | merge dictionaries |
 | `clear()`  | remove all items   |
 """
+
+# Exception Handling
+"""
+- Syntax errors
+- Indentation errors
+"""
+# Above errors we can't handle but what we can handle are exceptions
+"""
+print(10/0)
+this above code with give ZeroDivisionError exception and won't execute next line of code
+"""
+"""
+- try (block of code which can cause error)
+- except (to handle caused exception)
+- else (execute if code runs without any exception)
+- finally (will run no matter what will happen)
+- raise (manually throw error)
+"""
+
+# File Handling
+## Files are those which have extension like .py, .txt, .mp3
+## To handle them we use file handling
+## File handling means CRUD operations
+"""
+We have to use open() function to perform this actions like this
+file = open("filename.txt","r")
+content = file.read()
+print(content) # entire file
+print(file.readLine()) # this will execute first line in the file
+print(file.readLines()) # all lines into list
+file.close()
+"""
+
