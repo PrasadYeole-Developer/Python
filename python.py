@@ -178,5 +178,5 @@ Constructor - a function will be called when class will called while creating ob
 Attributes - variables inside class
 Methods - functions inside class
 Inheritance - a class(child) can inheriet another class(parent) so that attributes and methods of parent class can also be called in child class without declaring them in child class (Refer inheritance folder inside oops for more detail)
-
+Polymorphism - in programming it means it allows the same interface or method to behave differently depending on object or context (Refer polymorphism folder inside oops for more detail)
 """
