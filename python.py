@@ -76,20 +76,24 @@ def greet(name="Guest"):
 greet() # if not provided will print Guest
 greet("Bob") # this will print Hello, Bob
 
-# Data Structures
-## List : ordered, mutable, duplicates, heterogeneous
+# Added all base programs in Basic Programs folder
+# Added all for loop solutions in For loop folder
+# Added all while loop solutions in While loop folder
+
+# Data Structures (Refer data structures folder for more detail)
+## List : ordered, mutable, duplicates, heterogeneous (Refer list folder for more detail)
 fruits = ["apple", "banana", "cherry"]
 numbers = [10,20,30,40]
 print(numbers)
 numbers[1] = 99
 print(numbers)
 
-## Tuple : ordered, immutable, duplicates, heterogeneous, has only 2 methods count and index
+## Tuple : ordered, immutable, duplicates, heterogeneous, has only 2 methods count and index (Refer tuple folder for more detail)
 nums = (1,2,3,4,53,22,4)
 print(nums.index(4))
 print(nums.count(4))
 
-## Set : unordered, mutable, heterogeneous, duplicates, can not be traversed, has powerful methods
+## Set : unordered, mutable, heterogeneous, duplicates, can not be traversed, has powerful methods (Refer set folder for more detail)
 s = {1,2,3,4,5,6,7,8}
 print(s)
 s.add(9)
@@ -117,7 +121,7 @@ print("Intersection", intersectionSet)
 print("Difference", differenceSet)
 print("Symmetric difference", symmetricDifferenceSet)
 
-## Dictionary : mutable, insertion order, duplicate values, unique keys, heterogeneous
+## Dictionary : mutable, insertion order, duplicate values, unique keys, heterogeneous (Refer dictionary folder for more detail)
 student = {"name":"Jacob", "age":28}
 print(student)
 print(student["name"])
@@ -134,7 +138,7 @@ for i in student:
 | `clear()`  | remove all items   |
 """
 
-# Exception Handling
+# Exception Handling (Refer exception handling folder for more detail)
 """
 - Syntax errors
 - Indentation errors
@@ -152,7 +156,7 @@ this above code with give ZeroDivisionError exception and won't execute next lin
 - raise (manually throw error)
 """
 
-# File Handling
+# File Handling (Refer file handling folder for more detail)
 ## Files are those which have extension like .py, .txt, .mp3
 ## To handle them we use file handling
 ## File handling means CRUD operations
@@ -166,3 +170,13 @@ print(file.readLines()) # all lines into list
 file.close()
 """
 
+# OOPS (Refer oops folder for more detail)
+"""
+Classes - blueprint or template for an object
+Objects - a thing made from a blueprint
+Constructor - a function will be called when class will called while creating object and this function can target object locations
+Attributes - variables inside class
+Methods - functions inside class
+Inheritance - a class(child) can inheriet another class(parent) so that attributes and methods of parent class can also be called in child class without declaring them in child class (Refer inheritance folder inside oops for more detail)
+
+"""
