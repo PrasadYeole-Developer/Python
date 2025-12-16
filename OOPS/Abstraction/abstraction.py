@@ -19,4 +19,4 @@ class Dog(Animal):
 
 class Duck(Animal):
     def make_sound(self):
-        print("Quark!")
+        print("Quack!")

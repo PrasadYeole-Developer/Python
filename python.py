@@ -181,4 +181,5 @@ Inheritance - a class(child) can inheriet another class(parent) so that attribut
 Polymorphism - in programming it means it allows the same interface or method to behave differently depending on object or context (Refer polymorphism folder inside oops for more detail)
 Encapsulation - it means putting data together like variables and functions inside a class and hiding internal details like how things work and showing only what is needed (Refer encapsulation folder inside oops for more detail)
 Abstraction - it means to simplify complex systems by focusing on essential features and hiding unnecessary details (Refer abstraction folder inside oops for more detail)
+Dunder Methods - starts and ends with double underscores gets called automatically when certain actions get performed on object
 """
